@@ -1,0 +1,325 @@
+/*
+ * Custom RECOMB styles
+ * Overrides Minima defaults and adds dropdown navigation
+ */
+
+.wrapper {
+  max-width: 1000px; // Minima's default is around 800px. Increase this.
+}
+
+/* 1. Header & Logo Customization
+   ========================================================================== */
+.site-header {
+  border-top-color: #0d6efd; // RECOMB blue border
+  border-bottom-color: #dee2e6; // Lighter grey border
+}
+
+.recomb-logo {
+  height: 26px; // Set a fixed height for the logo
+  width: auto;
+  margin-top: 5px; // Adjust vertical alignment
+  margin-right: 20px;
+}
+
+.speaker-photo {
+  height: 200px; // Set a fixed height for the logo
+  width: auto;
+  margin-top: 5px; // Adjust vertical alignment
+  margin-right: 20px;
+  object-fit: cover;  /* Prevents stretching */
+  // border-radius: 50%; /* Makes them circular */
+  margin-bottom: 10px;
+}
+
+.sponsor-logo {
+  height: 160px; // Set a fixed height for the logo 
+  width: auto; 
+  margin-top: 5px; // Adjust vertical alignment
+  margin-right: 20px;
+  object-fit: cover;  /* Prevents stretching */
+  margin-bottom: 10px;
+}
+
+/* Styles for the venue photo */
+.venue-photo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 600px; /* Set a fixed height */
+  width: auto; /* Width will scale automatically */
+  max-width: 100%; /* Prevent it from overflowing its container */
+  margin-top: 5px;
+  margin-bottom: 10px;
+  object-fit: cover; /* Prevents stretching */
+}
+
+
+.site-nav-wrapper {
+  display: flex;
+  justify-content: space-between; // Pushes logo/title and nav to opposite ends
+  align-items: center; // Vertically center items
+  width: 100%;
+}
+
+/* 2. Desktop Navigation (Visible on large screens)
+   ========================================================================== */
+@media screen and (min-width: 800px) {
+  .desktop-nav {
+    display: block; // Show desktop nav
+  }
+  .mobile-nav {
+    display: none; // Hide mobile nav
+  }
+
+  .desktop-nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  /* Top-level menu items */
+  .nav-item-wrapper {
+    float: left; // This makes the menu horizontal
+    position: relative; // Required for dropdown positioning
+    margin-left: 10px; // Spacing between items
+  }
+
+  .nav-item-wrapper > .page-link,
+  .nav-item-wrapper > .nav-dropdown-toggle {
+    padding: 10px 10px; // Clickable area
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 0.9rem; // Slightly smaller font
+  }
+
+  .nav-item-wrapper > .nav-dropdown-toggle::after {
+    content: " ▼"; // Add dropdown arrow
+    font-size: 0.7rem;
+    padding-left: 3px;
+  }
+
+  /* Dropdown Menu (Hidden by default) */
+  .nav-dropdown-menu {
+    display: none; // Hide dropdown by default
+    position: absolute;
+    top: 100%; // Position right below the parent item
+    left: 0;
+    background-color: #ffffff; // White background
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    list-style: none;
+    padding: 5px 0;
+    margin: 0;
+    min-width: 200px; // Give dropdown some width
+    z-index: 1000;
+  }
+
+  .nav-dropdown-menu li .page-link {
+    padding: 8px 15px; // Padding for dropdown items
+    display: block;
+    white-space: nowrap; // Keep items on one line
+    font-size: 0.85rem;
+    color: #333; // Darker text for dropdown
+  }
+
+  /* Hover effects */
+  .nav-item-wrapper:hover > .page-link,
+  .nav-item-wrapper:hover > .nav-dropdown-toggle {
+    background-color: #f5f5f5; // Light grey on hover
+    color: #0d6efd; // RECOMB blue text on hover
+  }
+
+  .nav-dropdown-menu li .page-link:hover {
+    background-color: #0d6efd; // RECOMB blue on hover
+    color: #ffffff; // White text
+  }
+
+  .nav-item-wrapper:hover > .nav-dropdown-menu {
+    display: block; // Show dropdown on hover
+  }
+}
+
+/* 3. Mobile Navigation (Visible on small screens)
+   ========================================================================== */
+@media screen and (max-width: 799px) {
+  .desktop-nav {
+    display: none; // Hide desktop nav
+  }
+  .mobile-nav {
+    display: block; // Show mobile nav
+    float: right;
+    position: relative;
+    z-index: 100;
+  }
+
+  /* Style the mobile menu trigger ("hamburger") */
+  .mobile-nav .menu-icon {
+    display: block;
+    float: right;
+    width: 36px;
+    height: 26px;
+    line-height: 0;
+    padding-top: 10px;
+    text-align: center;
+  }
+  .mobile-nav .menu-icon > svg {
+    fill: #424242; // Minima's default icon color
+  }
+
+  /* Hide the checkbox */
+  .nav-trigger {
+    display: none;
+  }
+
+  /* Position the mobile menu dropdown */
+  .mobile-nav .trigger {
+    clear: both;
+    display: none; // Hidden by default
+    position: absolute;
+    top: 40px; // Position below the header
+    right: -10px;
+    width: 200px;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 10px 0;
+  }
+
+  /* Show menu when checkbox is checked */
+  .nav-trigger:checked ~ .trigger {
+    display: block;
+  }
+
+  .mobile-nav .trigger ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .nav-item-wrapper-mobile {
+    padding: 0 15px;
+  }
+
+  /* Mobile: Top-level item (non-dropdown) */
+  .nav-item-wrapper-mobile > .page-link {
+    display: block;
+    padding: 8px 0;
+    color: #333;
+    font-weight: bold;
+  }
+
+  /* Mobile: Top-level item (dropdown label) */
+  .nav-dropdown-toggle-mobile {
+    display: block;
+    padding: 8px 0;
+    color: #333;
+    font-weight: bold;
+    cursor: default;
+  }
+
+  /* Mobile: Dropdown items */
+  .nav-dropdown-menu-mobile {
+    list-style: none;
+    padding-left: 0;
+    margin: 0 0 10px 0;
+  }
+  .nav-dropdown-menu-mobile li .page-link {
+    display: block;
+    padding: 5px 0 5px 10px; // Indent dropdown items
+    color: #555;
+    font-weight: normal;
+  }
+}
+
+/*
+ * Custom styles to remove ALL table borders and shading
+ * for the speaker photo grid
+ */
+.post-content table {
+  border: none; /* Removes the outer table border */
+}
+
+.post-content td,
+.post-content th {
+  border: none; /* Removes the cell borders */
+  padding: 10px;
+}
+
+/* This is the new part: */
+.post-content table tr,
+.post-content table tr:nth-child(odd),
+.post-content table tr:nth-child(even) {
+  background-color: transparent !important;
+  background: none !important; /* Force remove background */
+}
+
+
+/* 6. Force Light Mode (Override prefers-color-scheme)
+   ========================================================================== */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #ffffff !important; /* Force light background */
+    color: #212529 !important; /* Force dark text */
+  }
+
+  .site-header {
+    background-color: #ffffff !important;
+    border-top-color: #0d6efd !important;
+    border-bottom-color: #dee2e6 !important;
+  }
+
+  .site-title,
+  .site-nav .page-link,
+  .desktop-nav .page-link,
+  .mobile-nav .menu-icon > svg,
+  .nav-item-wrapper > .nav-dropdown-toggle {
+    color: #333 !important; /* Force default text color for nav */
+  }
+
+  .site-nav .page-link:hover,
+  .nav-item-wrapper:hover > .page-link,
+  .nav-item-wrapper:hover > .nav-dropdown-toggle {
+    color: #0d6efd !important; /* Force blue hover */
+  }
+
+  .post-content h1,
+  .post-content h2,
+  .post-content h3,
+  .post-content h4,
+  .post-content h5,
+  .post-content h6 {
+    color: #212529 !important; /* Force dark headings */
+  }
+
+  .mobile-nav .trigger {
+    background-color: #ffffff !important; /* Force light mobile menu */
+  }
+
+  .nav-dropdown-menu {
+    background-color: #ffffff !important; /* Force light dropdown */
+  }
+
+  .nav-dropdown-menu li .page-link {
+    color: #333 !important;
+  }
+
+  .nav-dropdown-menu li .page-link:hover {
+    background-color: #0d6efd !important;
+    color: #ffffff !important;
+  }
+  
+  /* Force all links in post content to be a readable blue */
+  .post-content a {
+    color: #0d6efd !important; /* RECOMB blue */
+  }
+
+  /* Force link hover color to be a darker blue */
+  .post-content a:hover {
+    color: #0a58ca !important; /* Darker blue on hover */
+  }
+  
+}
