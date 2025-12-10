@@ -25,6 +25,9 @@ layout: base
 
     /* 3. Ensure overflow is hidden */
     overflow: hidden;
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url('{{ "/images/city/index-bg.jpg" | relative_url }}');
   }
 
   /* Target the h1, h2, h3, and p tags *only* inside this hero section */
@@ -59,8 +62,7 @@ layout: base
 
 <!-- <div class="recomb-hero" style="background-image:  url({{ '/images/city/index-bg.jpg' | relative_url }});"> -->
 
-<div class="recomb-hero" style="background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('{{ "
-  /images/city/index-bg.jpg" | relative_url }}');">
+<div class="recomb-hero">
   <h1>{{ site.title }}</h1>
   <h2>{{ site.location }}</h2>
   <h3>{{ site.deadlines.conference_dates }}</h3>
