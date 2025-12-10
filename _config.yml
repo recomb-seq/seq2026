@@ -1,7 +1,9 @@
 # Site-wide settings
 # ------------------
 #
-title: RECOMB-Seq 2026
+title: RECOMB-Seq
+year: 2026
+dates: May 24-25, 2026
 iteration: "16th"
 location: "Thessaloniki, Greece"
 pc_chair1: "Victoria Popic"
@@ -9,8 +11,8 @@ pc_chair2: "Kristoffer Sahlin"
 
 #
 author:
-   name: RECOMB-Seq Conference
-   email: recombseq@gmail.com
+  name: RECOMB-Seq Conference
+  email: recombseq@gmail.com
 #
 # The `>` after `description:` means to ignore line-breaks until next key. If
 #   you wish to omit the line-break after the end of text, use `>-` instead.
@@ -18,7 +20,6 @@ author:
 #   Write an awesome description for your new site here. You can edit this line
 #   in _config.yml. It will appear in your document head meta (for Google search
 #   results) and in your feed.xml site description.
-
 
 # Build settings
 # --------------
@@ -44,7 +45,6 @@ author:
 #   quiet_deps: true
 #   silence_deprecations: [import]
 
-
 # Minima-specific settings (applicable to Minima v3 and above only)
 # -----------------------------------------------------------------
 #
@@ -52,13 +52,13 @@ author:
 #   `minima` key.*
 #
 minima:
-#   Minima skin selection. Available skins are:
-#     * classic            Default, light color scheme.
-#     * dark               Dark variant of the classic skin.
-#     * auto               Adaptive skin based on the classic and dark skins.
-#     * solarized-light    Light variant of solarized color scheme.
-#     * solarized-dark     Dark variant of solarized color scheme.
-#     * solarized          Adaptive skin for solarized color scheme skins.
+  #   Minima skin selection. Available skins are:
+  #     * classic            Default, light color scheme.
+  #     * dark               Dark variant of the classic skin.
+  #     * auto               Adaptive skin based on the classic and dark skins.
+  #     * solarized-light    Light variant of solarized color scheme.
+  #     * solarized-dark     Dark variant of solarized color scheme.
+  #     * solarized          Adaptive skin for solarized color scheme skins.
   skin: auto
 
 #   Social Media Links.
@@ -68,18 +68,18 @@ minima:
 #       * icon     Font Awesome icon id. `github` corresponds to `fa-github`.
 #       * url      Full URL of social profile.
 social_links:
-    - title: Email 
-      icon: envelope
-      url: "mailto:recombseq@gmail.com"
-    - title: RECOMB-Seq at X 
-      icon: x-twitter
-      url: "https://x.com/RECOMBseq"
-    - title: RECOMB-Seq at BlueSky 
-      icon: bluesky
-      url: "https://bsky.app/profile/recombseq.bsky.social"
-    - title: RECOMB-Seq at LinkedIn
-      icon: linkedin
-      url: "https://www.linkedin.com/groups/15794046/"	
+  - title: Email
+    icon: envelope
+    url: "mailto:recombseq@gmail.com"
+  - title: RECOMB-Seq at X
+    icon: x-twitter
+    url: "https://x.com/RECOMBseq"
+  - title: RECOMB-Seq at BlueSky
+    icon: bluesky
+    url: "https://bsky.app/profile/recombseq.bsky.social"
+  - title: RECOMB-Seq at LinkedIn
+    icon: linkedin
+    url: "https://www.linkedin.com/groups/15794046/"
 #
 #   Hide syndication feed subscription link.
 #     RSS / Atom feed link is always rendered as the last item of social-links
@@ -101,8 +101,6 @@ main_navigation:
         url: /call_for_papers
       - title: Call for Abstracts
         url: /call_for_abstracts
-      - title: Call for Highlights
-        url: /call_for_highlights
   - title: Register
     url: /register
     #children:
@@ -143,18 +141,18 @@ deadlines:
   highlights_submission: "TBA"
   highlights_notification: "TBA"
   highlights_cutoff: "January 1, 2025" # earliest journal pub date for highlights submissions
-  poster_submission: "TBA"
-  poster_notification: "TBA"
-  late_poster_submission: "TBA"
-  late_poster_notification: "TBA"
-  conference_dates: "24-25 May 2026"  
-  
-links: 
+  poster_and_short_talk_submission: "TBA"
+  poster_and_short_talk_notification: "TBA"
+  late_poster_and_short_talk_submission: "TBA"
+  late_poster_and_short_talk_notification: "TBA"
+  conference_dates: "24-25 May 2026"
+
+links:
   easychair: "https://easychair.org/conferences/?conf=recomb2026"
-  highlights_chair: "mailto: " 
+  highlights_chair: "mailto: "
   posters_chair: "mailto: "
-  pc_chair: "mailto:"
-  
+  pc_chair1: "mailto:vpopic@broadinstitute.org"
+  pc_chair2: "mailto:krsahlin@gmail.com"
 #  nav_pages:
 #     - about.md
 #     - committes.md

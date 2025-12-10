@@ -5,46 +5,82 @@ title: Call for Papers
 
 ## Overview
 
-The RECOMB conference series, founded in 1997, provides a scientific forum for communicating advances in computational biology and applications in molecular biology and medicine. The conference aims to bridge the computational, mathematical, statistical, and biological sciences, and bringing together researchers, professionals, students and industrial practitioners from all over the world for interaction and exchange of new developments in all areas of bioinformatics and computational biology. The conference will feature keynote talks by leading scientists, presentations of peer-reviewed high-quality research papers, presentations of exciting research developments that were published within the past year and poster sessions on latest research progress.
+The {{site.iteration}} RECOMB Satellite Conference on Biological Sequence Analysis (RECOMB-seq {{site.year}}) will be held on {{site.dates}} in {{site.location}}, just before the main RECOMB conference. The conference brings together leading researchers in computational genomics and genomic biology. The emphasis will be on new algorithmic and statistical methods for the analysis, management, inference, and interpretation of sequencing data as well as assembled genomes.
+
 
 ## Topics
 
 Papers reporting on original research (both theoretical and applied) in all areas of computational molecular biology are suitable for submission. Topics of interest include, but are not limited to:
 
-- Algorithms & Theory for Computational Biology
-- Biological sequence algorithms
-- Sequencing and genotyping technologies
-- Metagenomics and microbiome analysis
-- Regulatory genomics
-- Transcriptomics
-- Single-cell and spatial omics
-- Protein structure and function
-- Computational proteomics and proteogenomics
-- Computational structural biology
-- Population genetics and statistical genomics
-- Evolution and comparative genomics
-- Multimodal and imaging-based machine learning for biology
-- Gene regulation and epigenomics
-- Structure and function of non-coding RNAs
-- Computational metabolomics
-- Computational systems and network biology
-- Data privacy and security in biomedical research
-
-## Submission Guidelines
-
-Submissions should represent original, previously unpublished work. The Program Committee will rigorously review submitted papers. Selected papers will be accepted for presentation at the conference. Please use the following submission link: [{{ site.links.easychair }}]({{ site.links.easychair }}).
-
-All papers must be original and not simultaneously submitted to another journal or conference.
-
-Authors **must post their submission on a preprint server like bioRxiv**. They should not assume that a formal proceedings volume will be published, as a final decision is still pending. All accepted papers will have opportunities for publication through our journal partners.
+- Sequence alignment and assembly
+- Summarization, comparison, and visualization of big genomics datasets
+- Multiple alignment and consensus sequence construction
+- Methods for calling and characterizing genetic variants, including structural variants
+- Methods for analysis of RNA sequencing (RNA-seq) data, including single-cell RNA-seq
+- Epigenetics and gene regulation, including ChIP-seq analysis, methylation profiling, and histone modification
+- Metagenomics
+- Methods for analysis of data from other novel sequencing assays
+- Translational applications of sequencing data, including cancer genomics and infectious disease
+- Pan-genomics, genome graphs, and novel uses of new genome assemblies
 
 ### Key Dates
+
+Proceedings and Overlay tracks
 
 - **Abstract submission deadline**: {{ site.deadlines.abstract_submission }}
 - **Full paper submission deadline**: {{ site.deadlines.paper_submission }}
 - **Author notification**: {{ site.deadlines.author_notification }}
 - **Final version due**: {{ site.deadlines.final_version }}
 - **Conference dates**: {{ site.deadlines.conference_dates }}
+
+Short talks / Posters 
+
+- **Abstract submission deadline**: {{ site.deadlines.poster_and_short_talk_submission }}
+- Authors will be notified shortly after submission
+
+
+## Tracks
+
+We solicit contributions in three categories (“tracks”) as follows.
+
+### Proceedings Track
+
+Manuscripts describing original work on computational aspects of genomic research involving large genomic datasets. Manuscripts in this track will be considered for publication in a special issue of the journal iScience. At the time of submission, and for the entire review period, the work should not be under review by any other conference or scientific journal. In some rare cases, manuscripts may be deemed to not be suitable for iScience after review but still invited for an oral presentation at RECOMB-seq. In this case, authors will be required to post their manuscripts on a public preprint server (bioRxiv, arXiv, etc.) prior to the conference.
+
+To indicate your submission should be considered for the proceedings track, please include “[Proceedings]” at the end of the paper title.
+
+### Overlay Track
+
+Manuscripts submitted to this track will be reviewed by the program committee, and selected submissions will be invited for oral presentation. The manuscript should be hosted on a public preprint server (bioRxiv, arXiv, etc.) at the time of submission. There are no specific formatting requirements, but the paper should generally be formatted in a way that emphasizes the methodological contributions. We also encourage authors to keep the manuscripts within similar length limits as for the proceedings track. Manuscripts can be submitted elsewhere at the same time but should not be published or in press at the time of submission. For manuscripts that are in press or published, please consider the Highlights track of the main RECOMB conference.
+
+To indicate your submission should be considered for the overlay track, please include “[Overlay]” at the end of the paper title.
+
+### Abstracts for Short Talks or Posters
+
+Regular abstracts describing original work, including software applications. These will be considered for short oral presentations or posters. A 1-2 page abstract describing the methods and key results should be submitted via the EasyChair system.
+
+## Partnership with iScience
+
+All submissions to the proceedings track will be simultaneously considered for publication in a special issue of the journal iScience if the authors agree. iScience is an open-access journal published by Cell Press for original research in the life, physical, and earth sciences.
+
+In addition to the program committee of RECOMB-seq, editors of iScience will evaluate the proceedings-track papers for biological impact and suitability for publication. In particular, the following criteria will be used to evaluate the biological relevance:
+
+- Can inputs be found through experiments?
+- Can outputs be used directly in future experiments or analyses?
+- Can outputs be obtained through a well-established methodology for less cost?
+- Is the methodology proposed applicable in useful settings?
+- Do biological data support the study?
+- Is biological variability sufficiently accounted for?
+
+Authors who do not wish their manuscript to be considered for iScience should use the overlay track for submission. Publication in iScience is subject to an Open Access charge of approximately $1500 (a 50% discounted rate for the conference proceedings). Reduced Open Access charges for authors in developing countries and others in financial hardship are available.
+
+## Submission Guidelines
+
+Manuscripts for the “proceedings track” should not exceed 10 pages using at least 10-point font on U.S. standard 8 1/2 by 11-inch paper with no less than one-inch margin all around. This excludes the cover page and references. The cover page should have the title, the corresponding author’s email address, and the abstract. An optional short appendix can be included if necessary, but reading it will be at the discretion of the program committee. Manuscripts must be submitted electronically in PDF format via the EasyChair system.
+
+In EasyChair, please select “RECOMB-seq {{site.year}}” track when you click “New Submission” in the “author” portal within the RECOMB conference at {{ site.links.easychair }}.
+
+Authors **must post their submission on a preprint server like bioRxiv**. They should not assume that a formal proceedings volume will be published, as a final decision is still pending. All accepted papers will have opportunities for publication through our journal partners.
 
 ### Formatting instructions for paper submission
 
@@ -58,20 +94,11 @@ Authors **must post their submission on a preprint server like bioRxiv**. They s
 
 There is a mandatory abstract submission deadline on **{{ site.deadlines.abstract_submission }}**, seven days prior to the full paper submissions deadline. This deadline allows the Program Committee to begin planning review assignments ahead of full paper submissions. After the abstract submission deadline has passed, new submissions will not be accepted, but authors can update the full paper submission before the paper submission deadline on **{{ site.deadlines.paper_submission }}**. Please ensure the abstract registration closely aligns with full paper submission in terms of title, author list, and abstract content. "Placeholder" abstract registrations without meaningful descriptions will not be accepted. While minor updates to the abstract are allowed before the full paper submission deadline, any substantial changes to the title or abstract content risk being removed without consideration.
 
-### Journal publication
-
-RECOMB is partnering with **Cell Systems, Genome Research**, and the **Journal of Computational Biology**. Authors of selected accepted papers will be invited, but not required, to submit a revised version of their paper for a special issue in one of the partnering journals. These journals will require some expansion of the RECOMB accepted papers. Preprint server submissions are allowed without restrictions. Submissions to peer-reviewed journals other than the partnering ones are also allowed, after the authors have received a decision on their initial submission, whether accepted or rejected.
-
-Authors will be notified of whether their paper is accepted for oral presentation at RECOMB and simultaneously whether it is being further considered for expedited review by Cell Systems or Genome Research upon RECOMB acceptance notification. In addition to the RECOMB reviewers, the editors of Cell Systems and Genome Research, as well as potentially 1-2 additional reviewers with particular knowledge of the biological applications addressed, will be actively engaged in those accepted RECOMB papers being considered for Cell Systems and Genome Research, respectively.
-
-Separately, all accepted papers not published elsewhere will be offered publication in a special issue of the Journal of Computational Biology.
-
 
 ### Contact
 
-All questions about submissions should be emailed to the [Program Committee Chair]({{ site.links.pc_chair }}).
+All questions about submissions should be emailed to the [{{site.pc_chair1}}]({{ site.links.pc_chair1 }}) or [{{site.pc_chair2}}]({{ site.links.pc_chair2 }}).
 
-*Information about highlights and poster submissions will be shared at a later date*.
 
 
 
