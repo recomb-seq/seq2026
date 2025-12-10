@@ -130,22 +130,12 @@ deadlines:
   abstract_submission: "TBA, 23:59 AoE"
   paper_submission: "TBA, 23:59 AoE"
   author_notification: "TBA"
-  final_version: "TBA"
-  early_registration: "TBA" # placeholder
-  late_registration: "TBA" # placeholder
-  highlights_submission: "TBA"
-  highlights_notification: "TBA"
-  highlights_cutoff: "January 1, 2025" # earliest journal pub date for highlights submissions
   poster_and_short_talk_submission: "TBA"
   poster_and_short_talk_notification: "TBA"
-  late_poster_and_short_talk_submission: "TBA"
-  late_poster_and_short_talk_notification: "TBA"
   conference_dates: "24-25 May 2026"
 
 links:
   easychair: "https://easychair.org/conferences/?conf=recomb2026"
-  highlights_chair: "mailto: "
-  posters_chair: "mailto: "
   pc_chair1: "mailto:vpopic@broadinstitute.org"
   pc_chair2: "mailto:krsahlin@gmail.com"
 #  nav_pages:
