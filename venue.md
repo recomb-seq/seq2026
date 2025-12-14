@@ -6,6 +6,7 @@ title: Venue
 {%- assign venue_path = "/images/city/venue.jpg" | relative_url -%}
 
 ## RECOMB-Seq {{site.year}} will be held in [HELEXPO](https://helexpo.gr/en/)
+{: style="text-align: center;"}
 
 <img src="{{ venue_path }}" alt="Venue" class="venue-photo">
 
