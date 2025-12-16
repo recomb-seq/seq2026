@@ -45,7 +45,7 @@ We solicit contributions in three categories (“tracks”) as follows.
 
 ### Proceedings Track
 
-Manuscripts describing original work on computational aspects of genomic research involving large genomic datasets. Manuscripts in this track will be considered for publication in a special issue of the journal iScience. At the time of submission, and for the entire review period, the work should not be under review by any other conference or scientific journal. In some rare cases, manuscripts may be deemed to not be suitable for iScience after review but still invited for an oral presentation at RECOMB-seq. In this case, authors will be required to post their manuscripts on a public preprint server (bioRxiv, arXiv, etc.) prior to the conference.
+Manuscripts describing original work on computational aspects of genomic research involving large genomic datasets. Manuscripts in this track will be considered for publication in a special issue of the Journal of Computational Biology. At the time of submission, and for the entire review period, the work should not be under review by any other conference or scientific journal. Publication in the Journal of Computational Biology will be free-of-charge. An open access option will be available for a fee. 
 
 To indicate your submission should be considered for the proceedings track, please include “[Proceedings]” at the end of the paper title.
 
@@ -59,21 +59,7 @@ To indicate your submission should be considered for the overlay track, please i
 
 Regular abstracts describing original work, including software applications. These will be considered for short oral presentations or posters. A 1-2 page abstract describing the methods and key results should be submitted via the EasyChair system.
 
-## Partnership with iScience
-
-All submissions to the proceedings track will be simultaneously considered for publication in a special issue of the journal iScience if the authors agree. iScience is an open-access journal published by Cell Press for original research in the life, physical, and earth sciences.
-
-In addition to the program committee of RECOMB-seq, editors of iScience will evaluate the proceedings-track papers for biological impact and suitability for publication. In particular, the following criteria will be used to evaluate the biological relevance:
-
-- Can inputs be found through experiments?
-- Can outputs be used directly in future experiments or analyses?
-- Can outputs be obtained through a well-established methodology for less cost?
-- Is the methodology proposed applicable in useful settings?
-- Do biological data support the study?
-- Is biological variability sufficiently accounted for?
-
-Authors who do not wish their manuscript to be considered for iScience should use the overlay track for submission. Publication in iScience is subject to an Open Access charge of approximately $1500 (a 50% discounted rate for the conference proceedings). Reduced Open Access charges for authors in developing countries and others in financial hardship are available.
-
+ 
 ## Submission Guidelines
 
 Manuscripts for the “proceedings track” should not exceed 10 pages using at least 10-point font on U.S. standard 8 1/2 by 11-inch paper with no less than one-inch margin all around. This excludes the cover page and references. The cover page should have the title, the corresponding author’s email address, and the abstract. An optional short appendix can be included if necessary, but reading it will be at the discretion of the program committee. Manuscripts must be submitted electronically in PDF format via the EasyChair system.
