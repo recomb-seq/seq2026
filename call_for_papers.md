@@ -45,7 +45,7 @@ We solicit contributions in three categories (“tracks”) as follows.
 
 ### Proceedings Track
 
-Manuscripts describing original work on computational aspects of genomic research involving large genomic datasets. Manuscripts in this track will be considered for publication in a special issue of the Journal of Computational Biology. At the time of submission, and for the entire review period, the work should not be under review by any other conference or scientific journal. Publication in the Journal of Computational Biology will be free-of-charge. An open access option will be available for a fee. 
+Manuscripts describing original work on computational aspects of genomic research involving large genomic datasets. More details will be forthcoming.
 
 To indicate your submission should be considered for the proceedings track, please include “[Proceedings]” at the end of the paper title.
 
