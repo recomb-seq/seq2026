@@ -11,79 +11,20 @@
 
 /* 1. Header & Logo Customization
    ========================================================================== */
+:root {
+  --header-height: 72px;
+}
+
 .site-header {
-  border-top-color: #0d6efd; // RECOMB blue border
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  border-top: none; // Remove blue border at top
   border-bottom-color: #dee2e6; // Lighter grey border
   background-color: #ffffff;
   transition: background-color 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
-}
-
-body:not(.home-page):not(.page-page) .page-content {
-  padding-top: var(--header-height);
-}
-
-/* Transparent header on pages with hero/banner so the image can sit behind it */
-.home-page .site-header,
-.page-page .site-header {
-  background: transparent;
-  border: none;
-  box-shadow: none;
-}
-
-.home-page .site-header .site-title,
-.home-page .site-header .site-title:visited,
-.home-page .site-header .nav-item-wrapper>.page-link,
-.home-page .site-header .nav-item-wrapper>.nav-dropdown-toggle,
-.page-page .site-header .site-title,
-.page-page .site-header .site-title:visited,
-.page-page .site-header .nav-item-wrapper>.page-link,
-.page-page .site-header .nav-item-wrapper>.nav-dropdown-toggle {
-  color: #ffffff;
-}
-
-.home-page .site-header .nav-item-wrapper:hover>.page-link,
-.home-page .site-header .nav-item-wrapper:hover>.nav-dropdown-toggle,
-.page-page .site-header .nav-item-wrapper:hover>.page-link,
-.page-page .site-header .nav-item-wrapper:hover>.nav-dropdown-toggle {
-  background-color: rgba(255, 255, 255, 0.12);
-  color: #ffffff;
-}
-
-.home-page .site-header .mobile-nav .menu-icon svg path,
-.page-page .site-header .mobile-nav .menu-icon svg path {
-  fill: #ffffff;
-}
-
-.home-page .site-header.is-scrolled,
-.page-page .site-header.is-scrolled {
-  background-color: #ffffff;
-  border-top: none;
-  border-bottom: 1px solid #dee2e6;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-}
-
-.home-page .site-header.is-scrolled .site-title,
-.home-page .site-header.is-scrolled .site-title:visited,
-.home-page .site-header.is-scrolled .nav-item-wrapper>.page-link,
-.home-page .site-header.is-scrolled .nav-item-wrapper>.nav-dropdown-toggle,
-.page-page .site-header.is-scrolled .site-title,
-.page-page .site-header.is-scrolled .site-title:visited,
-.page-page .site-header.is-scrolled .nav-item-wrapper>.page-link,
-.page-page .site-header.is-scrolled .nav-item-wrapper>.nav-dropdown-toggle {
-  color: #333;
-}
-
-.home-page .site-header.is-scrolled .nav-item-wrapper:hover>.page-link,
-.home-page .site-header.is-scrolled .nav-item-wrapper:hover>.nav-dropdown-toggle,
-.page-page .site-header.is-scrolled .nav-item-wrapper:hover>.page-link,
-.page-page .site-header.is-scrolled .nav-item-wrapper:hover>.nav-dropdown-toggle {
-  background-color: #f5f5f5;
-  color: #0d6efd;
-}
-
-.home-page .site-header.is-scrolled .mobile-nav .menu-icon svg path,
-.page-page .site-header.is-scrolled .mobile-nav .menu-icon svg path {
-  fill: #424242;
 }
 
 .recomb-logo {
@@ -127,7 +68,7 @@ body:not(.home-page):not(.page-page) .page-content {
   margin-right: 20px;
   object-fit: cover;
   /* Prevents stretching */
-  border-radius: 50%; /* Makes them circular */
+  // border-radius: 50%; /* Makes them circular */
   margin-bottom: 10px;
 }
 
