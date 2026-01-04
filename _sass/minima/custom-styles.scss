@@ -7,56 +7,7 @@
   max-width: 1000px; // Minima's default is around 800px. Increase this.
 }
 
-/* Page Header Banner (for non-home pages)
-   ========================================================================== */
-.page-page .page-content {
-  padding-top: 0; // Banner handles the spacing
-}
 
-.page-header-banner {
-  background-size: cover;
-  background-position: center center;
-  padding: calc(var(--header-height) + 40px) 0 70px; // Account for fixed header
-  text-align: center;
-  color: #fff;
-  position: relative;
-  margin: 0 calc(50% - 50vw);
-  width: 100vw;
-}
-
-.page-header-banner::before {
-  background: rgba(0, 0, 0, 0.5);
-  position: absolute;
-  content: '';
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-}
-
-.page-header-content {
-  position: relative;
-  z-index: 1;
-}
-
-.page-header-content h1 {
-  color: #fff !important;
-  font-size: 2.5rem;
-  font-weight: 700;
-  margin: 0;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-}
-
-@media screen and (max-width: 799px) {
-  .page-header-banner {
-    padding: calc(var(--header-height) + 40px) 0 40px;
-  }
-  
-  .page-header-content h1 {
-    font-size: 1.75rem;
-  }
-}
 
 /* 1. Header & Logo Customization
    ========================================================================== */
@@ -146,7 +97,7 @@ body:not(.home-page):not(.page-page) .page-content {
 
 .recomb-logo {
   height: auto;
-  width: 150px; // Set a fixed width for the logo
+  width: 200px; // Set a fixed width for the logo
   margin-top: 5px; // Adjust vertical alignment
   margin-bottom: 5px; // Add bottom margin to prevent touching border
   margin-right: 20px;
