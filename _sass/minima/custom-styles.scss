@@ -436,6 +436,38 @@ body.mobile-nav-open {
   /* Force remove background */
 }
 
+/* Mobile: Stack speaker photos vertically */
+@media screen and (max-width: 799px) {
+  .post-content table,
+  .post-content tbody,
+  .post-content tr,
+  .post-content td {
+    display: block;
+    width: 100%;
+  }
+  
+  .post-content td {
+    margin-bottom: 20px;
+    text-align: center !important;
+  }
+  
+  /* Prevent horizontal scrolling */
+  .post-content table {
+    overflow-x: visible;
+    table-layout: auto;
+  }
+  
+  /* Ensure images fit within container and make them smaller */
+  .speaker-photo {
+    max-width: 150px !important;
+    height: 150px !important;
+    width: auto !important;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+}
+
 
 /* 6. Force Light Mode (Override prefers-color-scheme)
    ========================================================================== */
