@@ -20,6 +20,11 @@
   border-bottom-color: #dee2e6; // Lighter grey border
 }
 
+/* Force black headings on home page */
+.home h1, .home h2, .home h3, .home h4, .home h5, .home h6 {
+  color: #000000 !important;
+}
+
 /* Add padding to body to prevent content from hiding under fixed header */
 body {
   padding-top: 70px; // Adjust this value based on your header height
