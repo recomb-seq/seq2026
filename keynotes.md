@@ -5,10 +5,10 @@ title: Keynotes
 
 {%- assign sp1_path = "/images/speakers/speaker-1.png" | relative_url -%}
 {%- assign sp2_path = "/images/speakers/speaker-2.png" | relative_url -%}
-{%- assign sp1_name = "Speaker 1" -%}
-{%- assign sp2_name = "Speaker 2" -%}
-{%- assign sp1_inst = "Institute of Inst1" -%}
-{%- assign sp2_inst = "Institute of Inst2" -%}
+{%- assign sp1_name = "Camille Marchet" -%}
+{%- assign sp2_name = "Manolis Kellis" -%}
+{%- assign sp1_inst = "MIT" -%}
+{%- assign sp2_inst = "CNRS" -%}
 
 #### Join us as two distinguished scientists from diverse fields share their groundbreaking research throughout the conference.
 
