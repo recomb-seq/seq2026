@@ -3,12 +3,12 @@ layout: page
 title: Keynotes
 ---
 
-{%- assign sp1_path = "/images/speakers/speaker-1.png" | relative_url -%}
-{%- assign sp2_path = "/images/speakers/speaker-2.png" | relative_url -%}
+{%- assign sp1_path = "/images/speakers/camille.jpeg" | relative_url -%}
+{%- assign sp2_path = "/images/speakers/manolis.jpg" | relative_url -%}
 {%- assign sp1_name = "Camille Marchet" -%}
 {%- assign sp2_name = "Manolis Kellis" -%}
-{%- assign sp1_inst = "MIT" -%}
-{%- assign sp2_inst = "CNRS" -%}
+{%- assign sp1_inst = "CNRS" -%}
+{%- assign sp2_inst = "MIT" -%}
 
 #### Join us as two distinguished scientists from diverse fields share their groundbreaking research throughout the conference.
 
