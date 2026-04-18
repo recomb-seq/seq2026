@@ -57,7 +57,7 @@ To indicate your submission should be considered for the overlay track, please i
 
 ### Abstracts for Short Talks or Posters
 
-Regular abstracts describing original work, including software applications. These will be considered for short oral presentations or posters. A 1-2 page abstract describing the methods and key results should be submitted via the EasyChair system. For detailed instructions, please see [submission instructions](/call_for_abstracts.md)
+Regular abstracts describing original work, including software applications. These will be considered for short oral presentations or posters. A 1-2 page abstract describing the methods and key results should be submitted via the EasyChair system. For detailed instructions, please see the [submission instructions](/call_for_abstracts.md).
 
  
 ## Submission Guidelines
