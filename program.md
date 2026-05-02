@@ -173,7 +173,7 @@ table.schedule th { background-color: #f5f5f5; }
       <td style="padding:10px; vertical-align:top; border:1px solid #999;">Yunwei Zhao, Preetha Balasubramanian and Lakshminarayanan Subramanian</td>
     </tr>
     <tr>
-      <td style="padding:10px; vertical-align:top; border:1px solid #999;">11:10-11:40</td>
+      <td style="padding:10px; vertical-align:top; border:1px solid #999;">11:10-11:30</td>
       <td style="padding:10px; vertical-align:top; border:1px solid #999;"><b>Coffee break</b></td>
       <td style="padding:10px; vertical-align:top; border:1px solid #999;"></td>
     </tr>
@@ -183,27 +183,27 @@ table.schedule th { background-color: #f5f5f5; }
       <td style="padding:10px; vertical-align:top; border:1px solid #999;">Session chair: TBD</td>
     </tr>
     <tr>
-      <td style="padding:10px; vertical-align:top; border:1px solid #999;">11:40-12:05</td>
+      <td style="padding:10px; vertical-align:top; border:1px solid #999;">11:30-11:55</td>
       <td style="padding:10px; vertical-align:top; border:1px solid #999;">Unique molecular identifiers don't need to be unique: a collision-aware estimator for RNA-seq quantification [Proceedings]</td>
       <td style="padding:10px; vertical-align:top; border:1px solid #999;">Dylan Agyemang, Rafael Irizarry and Tavor Baharav</td>
     </tr>
     <tr>
-      <td style="padding:10px; vertical-align:top; border:1px solid #999;">12:05-12:30</td>
+      <td style="padding:10px; vertical-align:top; border:1px solid #999;">11:55-12:20</td>
       <td style="padding:10px; vertical-align:top; border:1px solid #999;">PrimerDesigner: Designing efficient primers for synthesizing large protein libraries without cross-hybridization [Proceedings]</td>
       <td style="padding:10px; vertical-align:top; border:1px solid #999;">Jonathan Mandl, Marcus Bluestone, Scott Longwell, Polly Fordyce and Yaron Orenstein</td>
     </tr>
     <tr>
-      <td style="padding:10px; vertical-align:top; border:1px solid #999;">12:30-12:55</td>
+      <td style="padding:10px; vertical-align:top; border:1px solid #999;">12:20-12:45</td>
       <td style="padding:10px; vertical-align:top; border:1px solid #999;">stPularity: Spatial domain identification via purity-constrained Louvain clustering on spatially-smoothed cell type proportions [Proceedings]</td>
       <td style="padding:10px; vertical-align:top; border:1px solid #999;">Chandra Sekhar Reddy Edula, Yuxing Sun and Xiuwei Zhang</td>
     </tr>
     <tr>
-      <td style="padding:10px; vertical-align:top; border:1px solid #999;">12:55-13:07</td>
+      <td style="padding:10px; vertical-align:top; border:1px solid #999;">12:45-12:57</td>
       <td style="padding:10px; vertical-align:top; border:1px solid #999;">GenBenchQC: Automated quality control of genomic sequence benchmarks reveals widespread biases in deep learning datasets [Short talk]</td>
       <td style="padding:10px; vertical-align:top; border:1px solid #999;">Stephanie Sammut, Eva Marsalkova, Panagiotis Alexiou and Katarina Gresova</td>
     </tr>
     <tr>
-      <td style="padding:10px; vertical-align:top; border:1px solid #999;">13:10-14:30</td>
+      <td style="padding:10px; vertical-align:top; border:1px solid #999;">13:00-14:30</td>
       <td style="padding:10px; vertical-align:top; border:1px solid #999;"><b>Lunch</b></td>
       <td style="padding:10px; vertical-align:top; border:1px solid #999;"></td>
     </tr>
