@@ -3,11 +3,9 @@ layout: page
 title: Program
 ---
 
-# Program
-
 # Program of RECOMB-Seq 2026
  
-## May 25th, Monday
+## May 24th, Sunday
  
 | Time | Event | Speaker/Details |
 |---|---|---|
@@ -33,13 +31,13 @@ title: Program
 | 17:13-17:25 | Blown out of proportion: Effect of PCR artifacts on wastewater surveillance [Short talk] | Askar Gafurov, Kristína Boršová, Boris Klempa, Jozef Nosek, Brona Brejova and Tomas Vinar |
  
 <br>
-## May 26th, Tuesday
+## May 25th, Monday
  
 | Time | Event | Speaker/Details |
 |---|---|---|
 | 8:30-9:30 | **Registration** | HELEXPO, Thessaloniki |
 | 9:25-9:30 | **Opening** | Emilios Riadis Multipurpose Hall |
-| 9:30-10:30 | **Keynote 2** | Manolis Kellis, MIT |
+| 9:30-10:30 | **Keynote 2: Title TBD** | Manolis Kellis, MIT |
 | **Session 3: Single-cell transcriptomics and gene regulation** | | Session chair: TBD |
 | 10:30-10:42 | RANKOR: Direct drug prioritization from bulk and single-cell transcriptomic signatures [Short talk] | Nikoletta Katsaouni and Marcel H. Schulz |
 | 10:42-10:54 | BEACON: Bayesian contrastive learning for single-cell gene regulatory inference [Short talk] | Yunwei Zhao, Ankit Bhardwaj, Preetha Balasubramanian and Lakshminarayanan Subramanian |
