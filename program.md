@@ -39,7 +39,7 @@ table.schedule th { background-color: #f5f5f5; }
     </tr>
     <tr>
       <td style="padding:10px; vertical-align:top; border:1px solid #999;">10:30-11:00</td>
-      <td style="padding:10px; vertical-align:top; border:1px solid #999;"><b>Poster lightning talks</b> (10 selected posters, 2 min each)</td>
+      <td style="padding:10px; vertical-align:top; border:1px solid #999;"><b>Poster lightning talks</b> (2 min each)</td>
       <td style="padding:10px; vertical-align:top; border:1px solid #999;"></td>
     </tr>
     <tr>
