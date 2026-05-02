@@ -11,7 +11,7 @@ table.schedule th { background-color: #f5f5f5; }
  
 # Program of RECOMB-Seq 2026
  
-## May 25th, Monday
+## May 24th, Sunday
  
 <table class="schedule">
   <thead>
@@ -30,11 +30,11 @@ table.schedule th { background-color: #f5f5f5; }
     <tr>
       <td style="padding:10px; vertical-align:top; border:1px solid #999;">9:25-9:30</td>
       <td style="padding:10px; vertical-align:top; border:1px solid #999;"><b>Opening</b></td>
-      <td style="padding:10px; vertical-align:top; border:1px solid #999;">Emilios Riadis Multipurpose Hall</td>
+      <td style="padding:10px; vertical-align:top; border:1px solid #999;">TBD</td>
     </tr>
     <tr>
       <td style="padding:10px; vertical-align:top; border:1px solid #999;">9:30-10:30</td>
-      <td style="padding:10px; vertical-align:top; border:1px solid #999;"><b>Keynote 1</b></td>
+      <td style="padding:10px; vertical-align:top; border:1px solid #999;"><b>Keynote 1: Beyond reference sequences: algorithms for the next generation of sequence collections</b></td>
       <td style="padding:10px; vertical-align:top; border:1px solid #999;">Camille Marchet, CNRS</td>
     </tr>
     <tr>
@@ -125,7 +125,8 @@ table.schedule th { background-color: #f5f5f5; }
   </tbody>
 </table>
 <br>
-## May 26th, Tuesday
+
+## May 25th, Monday
  
 <table class="schedule">
   <thead>
@@ -144,11 +145,11 @@ table.schedule th { background-color: #f5f5f5; }
     <tr>
       <td style="padding:10px; vertical-align:top; border:1px solid #999;">9:25-9:30</td>
       <td style="padding:10px; vertical-align:top; border:1px solid #999;"><b>Opening</b></td>
-      <td style="padding:10px; vertical-align:top; border:1px solid #999;">Emilios Riadis Multipurpose Hall</td>
+      <td style="padding:10px; vertical-align:top; border:1px solid #999;">TBD</td>
     </tr>
     <tr>
       <td style="padding:10px; vertical-align:top; border:1px solid #999;">9:30-10:30</td>
-      <td style="padding:10px; vertical-align:top; border:1px solid #999;"><b>Keynote 2</b></td>
+      <td style="padding:10px; vertical-align:top; border:1px solid #999;"><b>Keynote 2: TBA</b></td>
       <td style="padding:10px; vertical-align:top; border:1px solid #999;">Manolis Kellis, MIT</td>
     </tr>
     <tr>
@@ -249,7 +250,7 @@ table.schedule th { background-color: #f5f5f5; }
     <tr>
       <td style="padding:10px; vertical-align:top; border:1px solid #999;">16:55-17:07</td>
       <td style="padding:10px; vertical-align:top; border:1px solid #999;">Fast and optimal affine-gap sequence-to-graph alignment [Short talk]</td>
-      <td style="padding:10px; vertical-align:top; border:1px solid #999;">Albert Jiménez Blanco</td>
+      <td style="padding:10px; vertical-align:top; border:1px solid #999;">Albert Jiménez-Blanco, Lorién López-Villellas, Juan Carlos Moure, Miquel Moreto, and Santiago Marco-Sola</td>
     </tr>
     <tr>
       <td style="padding:10px; vertical-align:top; border:1px solid #999;">17:07-17:19</td>
