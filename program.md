@@ -149,7 +149,7 @@ table.schedule th { background-color: #f5f5f5; }
     </tr>
     <tr>
       <td style="padding:10px; vertical-align:top; border:1px solid #999;">9:30-10:30</td>
-      <td style="padding:10px; vertical-align:top; border:1px solid #999;"><b>Keynote 2: TBA</b></td>
+      <td style="padding:10px; vertical-align:top; border:1px solid #999;"><b>Keynote 2: The Geometry of Meaning: Representation Learning for Personalized Medicine</b></td>
       <td style="padding:10px; vertical-align:top; border:1px solid #999;">Manolis Kellis, MIT</td>
     </tr>
     <tr>
