@@ -10,7 +10,7 @@ title: Keynotes
 {%- assign sp1_inst = "CNRS" -%}
 {%- assign sp2_inst = "MIT" -%}
 
-#### Join us as two distinguished scientists from diverse fields share their groundbreaking research throughout the conference.
+<!-- #### Join us as two distinguished scientists from diverse fields share their groundbreaking research throughout the conference. -->
 
 <table style="border: none;">
   <tr>
