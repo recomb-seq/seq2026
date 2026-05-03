@@ -30,7 +30,6 @@ title: Committees
  - Iman Hajirasouliha, Cornell University
  - Farhad Hormozdiari, Google Health
  - Fereydoun Hormozdiari, UC Davis
- - Luiz Irber, UC Davis
  - Andre Kahles, ETH Zurich
  - Mikhail Kolmogorov, National Cancer Institute, NIH
  - John Lees, EMBL-EBI
