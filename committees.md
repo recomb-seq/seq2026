@@ -22,7 +22,7 @@ title: Committees
  - Christina Boucher, University of Florida
  - Brona Brejova, Comenius University Bratislava
  - Hyunghoon Cho, Yale University
- - Luis Pedro Coelho, Fudan University
+ - Luis Pedro Coelho, Queensland University of Technology
  - Camila Duitama, Institut Pasteur Paris
  - Can Firtina, University of Maryland, College Park
  - Brian Haas, Broad Institute
