@@ -26,3 +26,21 @@ title: Keynotes
     </td>
   </tr>
 </table>
+
+---
+
+### {{ sp1_name }}
+*{{ sp1_inst }}*
+
+**"Beyond reference sequences: algorithms for the next generation of sequence collections"**
+
+Camille Marchet is a computational bioinformatics researcher and CNRS research associate in the BONSAI team at the CRIStAL lab, Université de Lille, France. She develops scalable algorithms and data structures for sequence analysis, with a focus on indexing and querying large collections of sequencing data and methods tailored to RNA-seq and other next-generation sequencing applications. Marchet received her BSc degree in Bioinformatics from INSA Lyon, a MSc in Ecology and Evolution from Université Claude Bernard Lyon 1, and completed her PhD in Computer Science at the University of Rennes in 2018, where she worked on de novo transcriptome analysis methods. After postdoctoral work in the BONSAI team, she joined CNRS as a research associate, contributing to projects on transcriptome encyclopedias and large-scale sequence indexing. Her research spans foundational data structures for k-mer sets, scalable sequence search, and efficient representation of sequencing datasets, and continues to drive methodological advances in computational genomics.
+
+---
+
+### {{ sp2_name }}
+*{{ sp2_inst }} — Computer Science and Artificial Intelligence Laboratory*
+
+**"The Geometry of Meaning: Representation Learning for Personalized Medicine"**
+
+Manolis Kellis is a Professor of Computer Science at MIT and a member of the Broad Institute of MIT and Harvard. His research sits at the intersection of machine learning, genomics, and medicine, with a focus on understanding how the genome encodes biological function and how variation in regulatory elements contributes to disease. Kellis has pioneered computational methods for comparative and functional genomics, epigenomics, and single-cell biology, and his group applies these tools to unravel the genetic basis of complex traits including neurodegeneration, psychiatric disorders, and metabolic disease. He leads the MIT Computational Biology group and has contributed to major international consortia including ENCODE and Roadmap Epigenomics.
