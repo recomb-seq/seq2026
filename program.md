@@ -30,7 +30,7 @@ table.schedule th { background-color: #f5f5f5; }
     <tr>
       <td style="padding:10px; vertical-align:top; border:1px solid #999;">9:25-9:30</td>
       <td style="padding:10px; vertical-align:top; border:1px solid #999;"><b>Opening</b></td>
-      <td style="padding:10px; vertical-align:top; border:1px solid #999;">TBD</td>
+      <td style="padding:10px; vertical-align:top; border:1px solid #999;">HELEXPO, Nikolaos Germanos conference center, Hall A</td>
     </tr>
     <tr>
       <td style="padding:10px; vertical-align:top; border:1px solid #999;">9:30-10:30</td>
@@ -145,7 +145,7 @@ table.schedule th { background-color: #f5f5f5; }
     <tr>
       <td style="padding:10px; vertical-align:top; border:1px solid #999;">9:25-9:30</td>
       <td style="padding:10px; vertical-align:top; border:1px solid #999;"><b>Opening</b></td>
-      <td style="padding:10px; vertical-align:top; border:1px solid #999;">TBD</td>
+      <td style="padding:10px; vertical-align:top; border:1px solid #999;">HELEXPO, Nikolaos Germanos conference center, Hall A</td>
     </tr>
     <tr>
       <td style="padding:10px; vertical-align:top; border:1px solid #999;">9:30-10:30</td>
