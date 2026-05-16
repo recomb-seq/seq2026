@@ -39,8 +39,32 @@ Camille Marchet is a computational bioinformatics researcher and CNRS research a
 ---
 
 ### {{ sp2_name }}
-*{{ sp2_inst }} — Computer Science and Artificial Intelligence Laboratory*
+*{{ sp2_inst }}*
 
 **"The Geometry of Meaning: Representation Learning for Personalized Medicine"**
 
-Manolis Kellis is a Professor of Computer Science at MIT and a member of the Broad Institute of MIT and Harvard. His research sits at the intersection of machine learning, genomics, and medicine, with a focus on understanding how the genome encodes biological function and how variation in regulatory elements contributes to disease. Kellis has pioneered computational methods for comparative and functional genomics, epigenomics, and single-cell biology, and his group applies these tools to unravel the genetic basis of complex traits including neurodegeneration, psychiatric disorders, and metabolic disease. He leads the MIT Computational Biology group and has contributed to major international consortia including ENCODE and Roadmap Epigenomics.
+*Current AI systems in biomedicine are powerful and opaque in equal measure, compressing biological
+knowledge into flat text exchanges, hiding the structure of the data they reason over, and excluding humans
+from what they do better than any machine: seeing patterns, relationships, and anomalies at a glance. The
+next frontier is not faster automation but elevating human understanding by revealing structure that was
+always in the data but invisible to us. In this talk, I will focus on the geometric foundations of representation
+learning across genes, drugs, proteins, cells, and patients. Each of these inhabits a semantic space whose
+geometric structure determines how its elements relate, how they transform, and what is therapeutically
+possible, and joint multimodal representation learning provides the instruments to measure that geometry
+directly. I will show how joint representation learning enables personalized medicine through self-supervised and
+contrastive objectives over graph neural networks of atoms, amino acids, and regulatory sequence. For
+target identification, we leverage single-cell atlases of Alzheimer's disease, ALS, schizophrenia, and
+bipolar disorder spanning hundreds of donors, and aggregate gene-level embeddings into cell-level vectors
+to replace binary case/control phenotyping with continuous, cell-resolved disease scores — revealing that
+within a single donor microglia and oligodendrocytes can sit in opposite regions of the disease
+manifold, and recovering hundreds of metabolic biomarkers invisible under conventional differential
+analysis. I will then present an interactive platform for navigating the resulting latent manifolds — the 20,000-
+dimensional human gene space, the 121-million-compound chemical universe, and the space of protein
+structures — through navigable, searchable, and composable operations. I will also describe our work on
+joint protein–chemistry embeddings, which screen millions of compounds in seconds at nanomolar
+resolution, including for disordered proteins on which traditional docking fails because stable structures
+cannot be resolved. Lastly, I will describe our work on using agentic workflows to reason over these geometric
+landscapes, predict new drugs, targets, and their interactions, and reframing personalized medicine as a
+consequence of the joint geometry of patients, cells, genes, drugs, functions, and phenotypes.*
+
+Manolis Kellis is a professor of computer science at MIT, a member of the Broad Institute of MIT and Harvard, a principal investigator of the Computer Science and Artificial Intelligence Lab at MIT, and head of the MIT Computational Biology Group (compbio.mit.edu). His research includes disease circuitry, genetics, genomics, epigenomics, coding genes, non-coding RNAs, regulatory genomics, and comparative genomics, applied to Alzheimer's Disease, Obesity, Schizophrenia, Cardiac Disorders, Cancer, and Immune Disorders, and multiple other disorders. He has led several large-scale genomics projects, including the Roadmap Epigenomics project, the ENCODE project, the Genotype Tissue-Expression (GTEx) project, and comparative genomics projects in mammals, flies, and yeasts. He received the US Presidential Early Career Award in Science and Engineering (PECASE) by US President Barack Obama, the Mendel Medal for Outstanding Achievements in Science, the NIH Director’s Transformative Research Award, the Boston Patent Law Association award, the NSF CAREER award, the Alfred P. Sloan Fellowship, the Technology Review TR35 recognition, the AIT Niki Award, and the Sprowls award for the best Ph.D. thesis in computer science at MIT. He has authored over 325 journal publications cited 200,000 times. He has obtained more than 20 multi-year grants from the NIH, and his trainees hold faculty positions at Stanford, Harvard, CMU, McGill, Johns Hopkins, UCLA, and other top universities. He lived in Greece and France before moving to the US, and he studied and conducted research at MIT, the Xerox Palo Alto Research Center, and the Cold Spring Harbor Lab. For more info, see: compbio.mit.edu 
