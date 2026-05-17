@@ -30,7 +30,7 @@ title: Keynotes
     <td style="text-align: center; border: none;">
       <img src="{{ sp3_path }}" alt="{{ sp3_name }}" class="speaker-photo" style="max-width: 200px;"><br>
       <b>{{ sp3_name }}</b><br>
-      {{ sp2_inst }}
+      {{ sp3_inst }}
     </td>
   </tr>
 </table>
