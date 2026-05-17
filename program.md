@@ -149,8 +149,8 @@ table.schedule th { background-color: #f5f5f5; }
     </tr>
     <tr>
       <td style="padding:10px; vertical-align:top; border:1px solid #999;">9:30-10:30</td>
-      <td style="padding:10px; vertical-align:top; border:1px solid #999;"><b>Keynote 2: The Geometry of Meaning: Representation Learning for Personalized Medicine</b></td>
-      <td style="padding:10px; vertical-align:top; border:1px solid #999;">Manolis Kellis, MIT</td>
+      <td style="padding:10px; vertical-align:top; border:1px solid #999;"><b>Keynote 2: New scalable approaches to pangenome construction and repeat analysis in the era of diversity genomics (incl. "A run-length-compressed skiplist data structure for dynamic GBWTs supports time and space efficient pangenome operations over syncmers" [Proceedings]) </b></td>
+      <td style="padding:10px; vertical-align:top; border:1px solid #999;">Richard Durbin, University of Cambridge</td>
     </tr>
     <tr>
       <td style="padding:10px; vertical-align:top; border:1px solid #999;"><b>Session 3: Single-cell transcriptomics and gene regulation</b></td>
@@ -203,7 +203,7 @@ table.schedule th { background-color: #f5f5f5; }
       <td style="padding:10px; vertical-align:top; border:1px solid #999;">Stephanie Sammut, Eva Marsalkova, Panagiotis Alexiou and Katarina Gresova</td>
     </tr>
     <tr>
-      <td style="padding:10px; vertical-align:top; border:1px solid #999;">13:00-14:30</td>
+      <td style="padding:10px; vertical-align:top; border:1px solid #999;">13:00-14:05</td>
       <td style="padding:10px; vertical-align:top; border:1px solid #999;"><b>Lunch</b></td>
       <td style="padding:10px; vertical-align:top; border:1px solid #999;"></td>
     </tr>
@@ -213,9 +213,19 @@ table.schedule th { background-color: #f5f5f5; }
       <td style="padding:10px; vertical-align:top; border:1px solid #999;">Session chair: TBD</td>
     </tr>
     <tr>
+      <td style="padding:10px; vertical-align:top; border:1px solid #999;">14:05-14:17</td>
+      <td style="padding:10px; vertical-align:top; border:1px solid #999;">Fast and optimal affine-gap sequence-to-graph alignment [Short talk]</td>
+      <td style="padding:10px; vertical-align:top; border:1px solid #999;">Albert Jiménez-Blanco, Lorién López-Villellas, Juan Carlos Moure, Miquel Moreto, and Santiago Marco-Sola</td>
+    </tr>
+    <tr>
+      <td style="padding:10px; vertical-align:top; border:1px solid #999;">14:17-14:29</td>
+      <td style="padding:10px; vertical-align:top; border:1px solid #999;">FASTR: A computation-native, lossless replacement for FASTQ [Short talk]</td>
+      <td style="padding:10px; vertical-align:top; border:1px solid #999;">Adrian Tkachenko, Sepehr Salem, Zulal Bingol, Nayeem Uddin Mohammed, Ayotomiwa Ezekiel Adeniyi, Akshat Prasanna, Alexander Zelikovsky, Serghei Mangul, Can Alkan and Mohammed Alser</td>
+    </tr>
+    <tr>
       <td style="padding:10px; vertical-align:top; border:1px solid #999;">14:30-14:55</td>
-      <td style="padding:10px; vertical-align:top; border:1px solid #999;">A run-length-compressed skiplist data structure for dynamic GBWTs supports time and space efficient pangenome operations over syncmers [Proceedings]</td>
-      <td style="padding:10px; vertical-align:top; border:1px solid #999;">Richard Durbin</td>
+      <td style="padding:10px; vertical-align:top; border:1px solid #999;">Sassy: Fuzzy searching DNA sequences using SIMD [Overlay]</td>
+      <td style="padding:10px; vertical-align:top; border:1px solid #999;">Rick Beeloo and Ragnar Groot Koerkamp</td>
     </tr>
     <tr>
       <td style="padding:10px; vertical-align:top; border:1px solid #999;">14:55-15:20</td>
@@ -238,24 +248,9 @@ table.schedule th { background-color: #f5f5f5; }
       <td style="padding:10px; vertical-align:top; border:1px solid #999;"></td>
     </tr>
     <tr>
-      <td style="padding:10px; vertical-align:top; border:1px solid #999;"><b>Session 6: Sequence alignment and I/O</b></td>
-      <td style="padding:10px; vertical-align:top; border:1px solid #999;"></td>
-      <td style="padding:10px; vertical-align:top; border:1px solid #999;">Session chair: TBD</td>
-    </tr>
-    <tr>
-      <td style="padding:10px; vertical-align:top; border:1px solid #999;">16:30-16:55</td>
-      <td style="padding:10px; vertical-align:top; border:1px solid #999;">Sassy: Fuzzy searching DNA sequences using SIMD [Overlay]</td>
-      <td style="padding:10px; vertical-align:top; border:1px solid #999;">Rick Beeloo and Ragnar Groot Koerkamp</td>
-    </tr>
-    <tr>
-      <td style="padding:10px; vertical-align:top; border:1px solid #999;">16:55-17:07</td>
-      <td style="padding:10px; vertical-align:top; border:1px solid #999;">Fast and optimal affine-gap sequence-to-graph alignment [Short talk]</td>
-      <td style="padding:10px; vertical-align:top; border:1px solid #999;">Albert Jiménez-Blanco, Lorién López-Villellas, Juan Carlos Moure, Miquel Moreto, and Santiago Marco-Sola</td>
-    </tr>
-    <tr>
-      <td style="padding:10px; vertical-align:top; border:1px solid #999;">17:07-17:19</td>
-      <td style="padding:10px; vertical-align:top; border:1px solid #999;">FASTR: A computation-native, lossless replacement for FASTQ [Short talk]</td>
-      <td style="padding:10px; vertical-align:top; border:1px solid #999;">Adrian Tkachenko, Sepehr Salem, Zulal Bingol, Nayeem Uddin Mohammed, Ayotomiwa Ezekiel Adeniyi, Akshat Prasanna, Alexander Zelikovsky, Serghei Mangul, Can Alkan and Mohammed Alser</td>
+      <td style="padding:10px; vertical-align:top; border:1px solid #999;">16:30-17:30</td>
+      <td style="padding:10px; vertical-align:top; border:1px solid #999;"><b>Keynote 3: From Genomics to Therapeutics: Single-cell Circuitry and Rewiring in Alzheimer's, Schizophrenia, Obesity, Cancer.</b></td>
+      <td style="padding:10px; vertical-align:top; border:1px solid #999;">Manolis Kellis, MIT</td>
     </tr>
     <tr>
       <td style="padding:10px; vertical-align:top; border:1px solid #999;">17:30-19:00</td>
