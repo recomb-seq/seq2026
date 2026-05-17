@@ -10,7 +10,8 @@ title: Keynotes
 {%- assign sp2_name = "Richard Durbin" -%}
 {%- assign sp3_name = "Manolis Kellis" -%}
 {%- assign sp1_inst = "CNRS" -%}
-{%- assign sp2_inst = "MIT" -%}
+{%- assign sp2_inst = "University of Cambridge" -%}
+{%- assign sp3_inst = "MIT" -%}
 
 <!-- #### Join us as two distinguished scientists from diverse fields share their groundbreaking research throughout the conference. -->
 
@@ -54,7 +55,7 @@ Richard Durbin is Professor of Computational Genomics in the Department of Genet
 ---
 
 ### {{ sp3_name }}
-*{{ sp2_inst }}*
+*{{ sp3_inst }}*
 
 **"From Genomics to Therapeutics: Single-cell Circuitry and Rewiring in Alzheimer's, Schizophrenia, Obesity, Cancer."**
 <!-- **"The Geometry of Meaning: Representation Learning for Personalized Medicine"** -->
