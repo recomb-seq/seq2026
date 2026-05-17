@@ -149,7 +149,7 @@ table.schedule th { background-color: #f5f5f5; }
     </tr>
     <tr>
       <td style="padding:10px; vertical-align:top; border:1px solid #999;">9:30-10:30</td>
-      <td style="padding:10px; vertical-align:top; border:1px solid #999;"><b>Keynote 2: New scalable approaches to pangenome construction and repeat analysis in the era of diversity genomics (incl. "A run-length-compressed skiplist data structure for dynamic GBWTs supports time and space efficient pangenome operations over syncmers" [Proceedings]) </b></td>
+      <td style="padding:10px; vertical-align:top; border:1px solid #999;"><b>Keynote 2: New scalable approaches to pangenome construction and repeat analysis in the era of diversity genomics</b><br>(incl. "A run-length-compressed skiplist data structure for dynamic GBWTs supports time and space efficient pangenome operations over syncmers" [Proceedings])</td>
       <td style="padding:10px; vertical-align:top; border:1px solid #999;">Richard Durbin, University of Cambridge</td>
     </tr>
     <tr>
