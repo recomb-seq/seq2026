@@ -4,9 +4,9 @@ title: Keynotes
 ---
 
 {%- assign sp1_path = "/images/speakers/camille.jpeg" | relative_url -%}
-{%- assign sp2_path = "/images/speakers/manolis.jpg" | relative_url -%}
+{%- assign sp3_path = "/images/speakers/manolis.jpg" | relative_url -%}
 {%- assign sp1_name = "Camille Marchet" -%}
-{%- assign sp2_name = "Manolis Kellis" -%}
+{%- assign sp3_name = "Manolis Kellis" -%}
 {%- assign sp1_inst = "CNRS" -%}
 {%- assign sp2_inst = "MIT" -%}
 
@@ -20,8 +20,8 @@ title: Keynotes
       {{ sp1_inst }}
     </td>
     <td style="text-align: center; border: none;">
-      <img src="{{ sp2_path }}" alt="{{ sp2_name }}" class="speaker-photo" style="max-width: 200px;"><br>
-      <b>{{ sp2_name }}</b><br>
+      <img src="{{ sp3_path }}" alt="{{ sp3_name }}" class="speaker-photo" style="max-width: 200px;"><br>
+      <b>{{ sp3_name }}</b><br>
       {{ sp2_inst }}
     </td>
   </tr>
@@ -38,12 +38,13 @@ Camille Marchet is a computational bioinformatics researcher and CNRS research a
 
 ---
 
-### {{ sp2_name }}
+### {{ sp3_name }}
 *{{ sp2_inst }}*
 
-**"The Geometry of Meaning: Representation Learning for Personalized Medicine"**
+**"From Genomics to Therapeutics: Single-cell Circuitry and Rewiring in Alzheimer's, Schizophrenia, Obesity, Cancer."**
+<!-- **"The Geometry of Meaning: Representation Learning for Personalized Medicine"** -->
 
-*Current AI systems in biomedicine are powerful and opaque in equal measure, compressing biological
+<!-- *Current AI systems in biomedicine are powerful and opaque in equal measure, compressing biological
 knowledge into flat text exchanges, hiding the structure of the data they reason over, and excluding humans
 from what they do better than any machine: seeing patterns, relationships, and anomalies at a glance. The
 next frontier is not faster automation but elevating human understanding by revealing structure that was
@@ -65,6 +66,6 @@ joint protein–chemistry embeddings, which screen millions of compounds in seco
 resolution, including for disordered proteins on which traditional docking fails because stable structures
 cannot be resolved. Lastly, I will describe our work on using agentic workflows to reason over these geometric
 landscapes, predict new drugs, targets, and their interactions, and reframing personalized medicine as a
-consequence of the joint geometry of patients, cells, genes, drugs, functions, and phenotypes.*
+consequence of the joint geometry of patients, cells, genes, drugs, functions, and phenotypes.* -->
 
 Manolis Kellis is a professor of computer science at MIT, a member of the Broad Institute of MIT and Harvard, a principal investigator of the Computer Science and Artificial Intelligence Lab at MIT, and head of the MIT Computational Biology Group (compbio.mit.edu). His research includes disease circuitry, genetics, genomics, epigenomics, coding genes, non-coding RNAs, regulatory genomics, and comparative genomics, applied to Alzheimer's Disease, Obesity, Schizophrenia, Cardiac Disorders, Cancer, and Immune Disorders, and multiple other disorders. He has led several large-scale genomics projects, including the Roadmap Epigenomics project, the ENCODE project, the Genotype Tissue-Expression (GTEx) project, and comparative genomics projects in mammals, flies, and yeasts. He received the US Presidential Early Career Award in Science and Engineering (PECASE) by US President Barack Obama, the Mendel Medal for Outstanding Achievements in Science, the NIH Director’s Transformative Research Award, the Boston Patent Law Association award, the NSF CAREER award, the Alfred P. Sloan Fellowship, the Technology Review TR35 recognition, the AIT Niki Award, and the Sprowls award for the best Ph.D. thesis in computer science at MIT. He has authored over 325 journal publications cited 200,000 times. He has obtained more than 20 multi-year grants from the NIH, and his trainees hold faculty positions at Stanford, Harvard, CMU, McGill, Johns Hopkins, UCLA, and other top universities. He lived in Greece and France before moving to the US, and he studied and conducted research at MIT, the Xerox Palo Alto Research Center, and the Cold Spring Harbor Lab. For more info, see: compbio.mit.edu 
