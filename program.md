@@ -50,7 +50,7 @@ table.schedule th { background-color: #f5f5f5; }
     <tr>
       <td style="padding:10px; vertical-align:top; border:1px solid #999;"><b>Session 1: Indexing and pangenome data structures</b></td>
       <td style="padding:10px; vertical-align:top; border:1px solid #999;"></td>
-      <td style="padding:10px; vertical-align:top; border:1px solid #999;">Session chair: TBD</td>
+      <td style="padding:10px; vertical-align:top; border:1px solid #999;">Session chair: Brona Brejova</td>
     </tr>
     <tr>
       <td style="padding:10px; vertical-align:top; border:1px solid #999;">13:00-13:25</td>
@@ -210,7 +210,7 @@ table.schedule th { background-color: #f5f5f5; }
     <tr>
       <td style="padding:10px; vertical-align:top; border:1px solid #999;"><b>Session 5: Compression and string algorithms</b></td>
       <td style="padding:10px; vertical-align:top; border:1px solid #999;"></td>
-      <td style="padding:10px; vertical-align:top; border:1px solid #999;">Session chair: TBD</td>
+      <td style="padding:10px; vertical-align:top; border:1px solid #999;">Session chair: Can Firtina</td>
     </tr>
     <tr>
       <td style="padding:10px; vertical-align:top; border:1px solid #999;">14:05-14:17</td>
