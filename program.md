@@ -80,7 +80,7 @@ table.schedule th { background-color: #f5f5f5; }
     <tr>
       <td style="padding:10px; vertical-align:top; border:1px solid #999;"><b>Session 2: Metagenomics and sequence classification</b></td>
       <td style="padding:10px; vertical-align:top; border:1px solid #999;"></td>
-      <td style="padding:10px; vertical-align:top; border:1px solid #999;">Session chair: TBD</td>
+      <td style="padding:10px; vertical-align:top; border:1px solid #999;">Session chair: Simon Puglisi</td>
     </tr>
     <tr>
       <td style="padding:10px; vertical-align:top; border:1px solid #999;">15:10-15:35</td>
