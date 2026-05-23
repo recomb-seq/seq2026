@@ -155,7 +155,7 @@ table.schedule th { background-color: #f5f5f5; }
     <tr>
       <td style="padding:10px; vertical-align:top; border:1px solid #999;"><b>Session 3: Single-cell transcriptomics and gene regulation</b></td>
       <td style="padding:10px; vertical-align:top; border:1px solid #999;"></td>
-      <td style="padding:10px; vertical-align:top; border:1px solid #999;">Session chair: TBD</td>
+      <td style="padding:10px; vertical-align:top; border:1px solid #999;">Session chair: Tavor Baharav</td>
     </tr>
     <tr>
       <td style="padding:10px; vertical-align:top; border:1px solid #999;">10:30-10:42</td>
@@ -180,7 +180,7 @@ table.schedule th { background-color: #f5f5f5; }
     <tr>
       <td style="padding:10px; vertical-align:top; border:1px solid #999;"><b>Session 4: RNA-seq, library design, and benchmarking</b></td>
       <td style="padding:10px; vertical-align:top; border:1px solid #999;"></td>
-      <td style="padding:10px; vertical-align:top; border:1px solid #999;">Session chair: TBD</td>
+      <td style="padding:10px; vertical-align:top; border:1px solid #999;">Session chair: Eduardo Beltrame</td>
     </tr>
     <tr>
       <td style="padding:10px; vertical-align:top; border:1px solid #999;">11:30-11:55</td>
